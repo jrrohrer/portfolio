@@ -14,3 +14,28 @@
 .nav-link:hover {
   border-top: 0.1875rem solid #9fb8ad;
 }
+
+/* HEADER STYLES */
+
+.header-wrapper {
+  position: relative;
+  background: url(dark-fern.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main-info h1 {
+  color: #ac9c6c;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
