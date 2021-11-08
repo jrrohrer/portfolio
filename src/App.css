@@ -31,11 +31,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
 .main-info h1 {
   color: #ac9c6c;
   text-transform: uppercase;
-  vertical-align: middle;
 }
