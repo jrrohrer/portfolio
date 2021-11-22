@@ -1,7 +1,11 @@
+body {
+  background-color: #e6e8e6;
+}
+
 /* NAVBAR STYLES */
 
 .navbar-brand img {
-  height: 100px;
+  height: 5rem;
 }
 
 .nav-link {
@@ -22,7 +26,7 @@
   background: url(dark-fern.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 45vh;
 }
 
 .main-info {
