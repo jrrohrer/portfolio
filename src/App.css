@@ -23,7 +23,7 @@ body {
 
 .header-wrapper {
   position: relative;
-  background: url(dark-fern.jpg) no-repeat;
+  background: url(pictures/dark-fern.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 45vh;
@@ -40,4 +40,9 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+/* SOCIAL MEDIA ICONS */
+.social-links img {
+  height: 3.125 rem;
 }
