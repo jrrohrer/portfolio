@@ -2,6 +2,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 // import logo from '../logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { NavHashLink } from 'react-router-hash-link'
 
 import React from 'react'
 
@@ -21,11 +22,11 @@ const NavBar = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id='responsive-navbar-nav'>
               <Nav className='m-auto'>
-                <Nav.Link href='/'>Home</Nav.Link>
-                <Nav.Link href='/about'>About</Nav.Link>
-                <Nav.Link href='/experience'>Experience</Nav.Link>
-                <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
-                <Nav.Link href='/contact'>Contact</Nav.Link>
+                <NavHashLink to='/#home' class='nav-link'>Home</NavHashLink>
+                <NavHashLink to='/#about' class='nav-link'>About</NavHashLink>
+                <NavHashLink to='/#experience' class='nav-link'>Experience</NavHashLink>
+                <NavHashLink to='/#portfolio' class='nav-link'>Portfolio</NavHashLink>
+                <NavHashLink to='/#contact' class='nav-link'>Contact</NavHashLink>
               </Nav>
             </Navbar.Collapse>
         </Container>

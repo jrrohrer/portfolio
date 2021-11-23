@@ -8,7 +8,7 @@ import twitterLogo from '../pictures/twitter_icon.svg'
 const Home = () => {
   return (
     <>
-      <div className='header-wrapper'>
+      <div id='home' className='header-wrapper'>
         <div className='main-info'>
           <img src={headerLogo} alt="Logo which reads: 'Jessie Rohrer: Software Engineer' on a dark background with fern leaves" className="img-fluid"/>
         </div>
