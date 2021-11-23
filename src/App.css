@@ -17,10 +17,6 @@ footer {
 
 /* NAVBAR STYLES */
 
-.navbar-brand img {
-  height: 5rem;
-}
-
 .nav-link {
   text-transform: uppercase;
   border-top: 0.1875rem solid rgba(255,255,255,0);

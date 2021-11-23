@@ -1,5 +1,4 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
-// import logo from '../logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { NavHashLink } from 'react-router-hash-link'
@@ -11,7 +10,6 @@ const NavBar = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            {/* <Navbar.Brand href="/"><img src={logo} alt="navbar logo"/></Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-auto'>
               <span>
                 <FontAwesomeIcon
