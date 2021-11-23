@@ -8,7 +8,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='sticky-top'>
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-auto'>
               <span>
@@ -20,11 +20,11 @@ const NavBar = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id='responsive-navbar-nav'>
               <Nav className='m-auto'>
-                <NavHashLink to='/#home' class='nav-link'>Home</NavHashLink>
-                <NavHashLink to='/#about' class='nav-link'>About</NavHashLink>
-                <NavHashLink to='/#experience' class='nav-link'>Experience</NavHashLink>
-                <NavHashLink to='/#portfolio' class='nav-link'>Portfolio</NavHashLink>
-                <NavHashLink to='/#contact' class='nav-link'>Contact</NavHashLink>
+                <Nav.Link as={NavHashLink} to='/#' href='/#'>Home</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#about' href='/#about'>About</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#experience' href='/#experience'>Experience</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#portfolio' href='/#portfolio'>Portfolio</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#contact' href='/#contact'>Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Container>
