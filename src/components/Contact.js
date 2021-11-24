@@ -8,6 +8,7 @@ import twitterLogo from '../pictures/twitter_icon.svg'
 const Contact = () => {
   return (
     <div id='contact' className='content text-center pt-5'>
+      <hr style={{ width: '50%', height: '5px', color: '#475841', margin: 'auto'}} className='mt-5 mb-5' />
       <h2>Thanks for stopping by!</h2>
       <p className='p-3'>Want to get connected? Reach out to me on one of these platforms:</p>
       <div className='link-container pb-3'>
