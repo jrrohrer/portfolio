@@ -42,6 +42,17 @@ const Experience = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
+          className='vertical-timeline-element-education'
+          contentStyle={{background: '#ced0ce'}}
+          contentArrowStyle={{borderRight: '7px solid #3f403f'}}
+          date='July 2017 - June 2019'
+        >
+          <h3 className='vertical-timeline-element-title'>MOMS Club of Elizabethtown</h3>
+          <h4 className='vertical-timeline-element-subtitle'>Elizabethtown, PA</h4>
+          <p>Vice President</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
           className='vertical-timeline-element-work'
           contentStyle={{background: '#ced0ce'}}
           contentArrowStyle={{borderRight: '7px solid #3f403f'}}
@@ -50,6 +61,17 @@ const Experience = () => {
           <h3 className='vertical-timeline-element-title'>The Athletic Club of Hershey</h3>
           <h4 className='vertical-timeline-element-subtitle'>Hershey, PA</h4>
           <p>Childcare Provider/Email Marketing Assistant</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+          className='vertical-timeline-element-education'
+          contentStyle={{background: '#ced0ce'}}
+          contentArrowStyle={{borderRight: '7px solid #3f403f'}}
+          date='July 2016 - June 2017'
+        >
+          <h3 className='vertical-timeline-element-title'>MOMS Club of Elizabethtown</h3>
+          <h4 className='vertical-timeline-element-subtitle'>Elizabethtown, PA</h4>
+          <p>Treasurer</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
