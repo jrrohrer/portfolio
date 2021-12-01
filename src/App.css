@@ -48,9 +48,12 @@ body {
   text-align: center;
 }
 
-/* TIMELINE STYLES */
+/* SKILLS STYLES */
 
-
+#skills .container img {
+  height: 5rem;
+  margin: 2rem;
+}
 
 /* FOOTER STYLES */
 
