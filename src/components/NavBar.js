@@ -22,7 +22,7 @@ const NavBar = () => {
               <Nav className='m-auto'>
                 <Nav.Link as={NavHashLink} to='/#' href='/#' tabIndex='1'>Home</Nav.Link>
                 <Nav.Link as={NavHashLink} to='/#about' href='/#about' tabIndex='2'>About</Nav.Link>
-                <Nav.Link as={NavHashLink} to='/#experience' href='/#experience' tabIndex='3'>Experience</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#skills' href='/#skills' tabIndex='3'>Skills</Nav.Link>
                 <Nav.Link as={NavHashLink} to='/#portfolio' href='/#portfolio' tabIndex='4'>Portfolio</Nav.Link>
                 <Nav.Link as={NavHashLink} to='/#contact' href='/#contact' tabIndex='5'>Contact</Nav.Link>
                 <Nav.Link href='https://dev.to/jrrohrer' target='_blank' tabIndex='6'>Blog</Nav.Link>

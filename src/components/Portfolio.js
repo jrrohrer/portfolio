@@ -8,7 +8,7 @@ import takeoutFinder from '../pictures/screenshots/takeoutfinder.png'
 
 const Portfolio = () => {
   return (
-    <div id='portfolio' tabIndex='9'>
+    <div id='portfolio' tabIndex='20'>
       <hr style={{ width: '50%', height: '5px', color: '#475841', margin: 'auto'}} className='mt-5 mb-5' />
       <h1 className='text-center'>Portfolio</h1>
       <Container fluid>

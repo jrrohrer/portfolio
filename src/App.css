@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -43,6 +47,10 @@ body {
   align-items: center;
   text-align: center;
 }
+
+/* TIMELINE STYLES */
+
+
 
 /* FOOTER STYLES */
 
