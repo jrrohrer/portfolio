@@ -8,7 +8,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='sticky-top'>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='ms-auto'>
               <span>
@@ -25,6 +25,7 @@ const NavBar = () => {
                 <Nav.Link as={NavHashLink} to='/#experience' href='/#experience'>Experience</Nav.Link>
                 <Nav.Link as={NavHashLink} to='/#portfolio' href='/#portfolio'>Portfolio</Nav.Link>
                 <Nav.Link as={NavHashLink} to='/#contact' href='/#contact'>Contact</Nav.Link>
+                <Nav.Link href='https://dev.to/jrrohrer' target='_blank'>Blog</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Container>
