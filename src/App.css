@@ -5,14 +5,7 @@ html {
 
 body {
   background-color: #e6e8e6;
-  margin-bottom: 3.125rem;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 3.125rem;
+  margin-bottom: 6rem;
 }
 
 /* NAVBAR STYLES */
@@ -51,4 +44,22 @@ footer {
   text-align: center;
 }
 
-/* About Section Styles */
+/* FOOTER STYLES */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+}
+
+.footer-nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 2rem;
+  color: #e6e8e6;
+}
+
+.footer-nav-link:hover {
+  color: gray;
+}
