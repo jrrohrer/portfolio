@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link'
 const Footer = () => {
   return (
     <footer className='footer mt-auto py-3 bg-dark text-center'>
-      <HashLink to='/#home' href='home' className='footer-nav-link'>Back to Top</HashLink>
+      <HashLink to='/#top' href='/#top' className='footer-nav-link'>Back to Top</HashLink>
       <br/>
       <p className='text-muted mt-3'>
         &copy; {new Date().getFullYear()} Jessie Rohrer
