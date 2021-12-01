@@ -4,7 +4,7 @@ import profilePhoto from '../pictures/profile-photo.jpg'
 
 const About = () => {
   return (
-    <div id='about'>
+    <div id='about' tabIndex='7'>
       <Container>
         <h1 className='m-3 text-center'>Hi, I'm Jessie</h1>
         <Row xs={1} md={1} lg={2} className='text-center'>

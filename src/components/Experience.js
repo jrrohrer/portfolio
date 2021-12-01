@@ -4,7 +4,7 @@ import 'react-vertical-timeline-component/style.min.css'
 
 const Experience = () => {
   return (
-    <div id='experience'>
+    <div id='experience' tabIndex='8'>
       <hr style={{ width: '50%', height: '5px', color: '#475841', margin: 'auto'}} className='mt-5 mb-5' />
 
       <h2 className='text-center'>Experience & Education</h2>

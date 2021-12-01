@@ -20,12 +20,12 @@ const NavBar = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id='responsive-navbar-nav'>
               <Nav className='m-auto'>
-                <Nav.Link as={NavHashLink} to='/#' href='/#'>Home</Nav.Link>
-                <Nav.Link as={NavHashLink} to='/#about' href='/#about'>About</Nav.Link>
-                <Nav.Link as={NavHashLink} to='/#experience' href='/#experience'>Experience</Nav.Link>
-                <Nav.Link as={NavHashLink} to='/#portfolio' href='/#portfolio'>Portfolio</Nav.Link>
-                <Nav.Link as={NavHashLink} to='/#contact' href='/#contact'>Contact</Nav.Link>
-                <Nav.Link href='https://dev.to/jrrohrer' target='_blank'>Blog</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#' href='/#' tabIndex='1'>Home</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#about' href='/#about' tabIndex='2'>About</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#experience' href='/#experience' tabIndex='3'>Experience</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#portfolio' href='/#portfolio' tabIndex='4'>Portfolio</Nav.Link>
+                <Nav.Link as={NavHashLink} to='/#contact' href='/#contact' tabIndex='5'>Contact</Nav.Link>
+                <Nav.Link href='https://dev.to/jrrohrer' target='_blank' tabIndex='6'>Blog</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Container>
