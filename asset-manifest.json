@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1b4eb3a.chunk.css",
-    "main.js": "/static/js/main.1210f7f4.chunk.js",
-    "main.js.map": "/static/js/main.1210f7f4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
-    "static/js/2.a4583535.chunk.js": "/static/js/2.a4583535.chunk.js",
-    "static/js/2.a4583535.chunk.js.map": "/static/js/2.a4583535.chunk.js.map",
+    "main.css": "/static/css/main.8221e36f.chunk.css",
+    "main.js": "/static/js/main.2e64f6ca.chunk.js",
+    "main.js.map": "/static/js/main.2e64f6ca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e26b02a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e26b02a.js.map",
+    "static/js/2.391a9d87.chunk.js": "/static/js/2.391a9d87.chunk.js",
+    "static/js/2.391a9d87.chunk.js.map": "/static/js/2.391a9d87.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a1b4eb3a.chunk.css.map": "/static/css/main.a1b4eb3a.chunk.css.map",
-    "static/js/2.a4583535.chunk.js.LICENSE.txt": "/static/js/2.a4583535.chunk.js.LICENSE.txt",
+    "static/css/main.8221e36f.chunk.css.map": "/static/css/main.8221e36f.chunk.css.map",
+    "static/js/2.391a9d87.chunk.js.LICENSE.txt": "/static/js/2.391a9d87.chunk.js.LICENSE.txt",
     "static/media/appleexpert.52ab4fd6.png": "/static/media/appleexpert.52ab4fd6.png",
+    "static/media/arrowStorm.faea0905.png": "/static/media/arrowStorm.faea0905.png",
     "static/media/bookcritiq.353a6876.png": "/static/media/bookcritiq.353a6876.png",
     "static/media/App.css": "/static/media/dark-fern.556e75e0.jpg",
-    "static/media/dev-icon.92f5d285.svg": "/static/media/dev-icon.92f5d285.svg",
     "static/media/github_icon.c57108f5.svg": "/static/media/github_icon.c57108f5.svg",
     "static/media/healthybaltimore.9865c2f5.png": "/static/media/healthybaltimore.9865c2f5.png",
     "static/media/linkedin_icon.a6993c12.svg": "/static/media/linkedin_icon.a6993c12.svg",
     "static/media/logo.5892864c.png": "/static/media/logo.5892864c.png",
     "static/media/profile-photo.7ac8c193.jpg": "/static/media/profile-photo.7ac8c193.jpg",
     "static/media/takeoutfinder.1608fae7.png": "/static/media/takeoutfinder.1608fae7.png",
-    "static/media/twitter_icon.43b451a3.svg": "/static/media/twitter_icon.43b451a3.svg",
     "static/media/yarnstasher.94116e6c.png": "/static/media/yarnstasher.94116e6c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f027f2bf.js",
-    "static/js/2.a4583535.chunk.js",
-    "static/css/main.a1b4eb3a.chunk.css",
-    "static/js/main.1210f7f4.chunk.js"
+    "static/js/runtime-main.3e26b02a.js",
+    "static/js/2.391a9d87.chunk.js",
+    "static/css/main.8221e36f.chunk.css",
+    "static/js/main.2e64f6ca.chunk.js"
   ]
 }
